@@ -1,0 +1,58 @@
+{
+    "offers": [
+		{
+			"id": 1,
+			"title": "Práctica Ingeniería de Software",
+			"company_name": "Amazon",
+			"company_logo": "idawOgYOsG/logo.jpeg",
+			"region": "Providencia",
+			"city":  "Santiago",
+			"arrangement": "Híbrido"
+		},
+		{
+			"id": 1,
+			"title": "Práctica Cloud Solutions",
+			"company_name": "Microsoft",
+			"company_logo": "idchmboHEZ/logo.jpeg",
+			"region": "Vitacura",
+			"city":  "Santiago",
+			"arrangement": "Presencial"
+		},
+		{
+			"id": 1,
+			"title": "Ayudante Programación Profesional",
+			"company_name": "UAI",
+			"company_logo": "idokXVV7qY/logo.jpeg",
+			"region": "Peñalolén",
+			"city":  "Santiago",
+			"arrangement": "Remoto"
+		},
+		{
+			"id": 1,
+			"title": "Practicante Analista de Datos",
+			"company_name": "Accenture",
+			"company_logo": "id44tJQbVE/logo.jpeg",
+			"region": "Las Condes",
+			"city":  "Santiago",
+			"arrangement": "Híbrido"
+		},
+		{
+			"id": 1,
+			"title": "Práctica Ingeniería de Software",
+			"company_name": "Amazon",
+			"company_logo": "idawOgYOsG/logo.jpeg",
+			"region": "Providencia",
+			"city":  "Santiago",
+			"arrangement": "Híbrido"
+		},
+		{
+			"id": 1,
+			"title": "Práctica Ingeniería de Software",
+			"company_name": "Amazon",
+			"company_logo": "idawOgYOsG/logo.jpeg",
+			"region": "Providencia",
+			"city":  "Santiago",
+			"arrangement": "Híbrido"
+		}
+    ]
+}

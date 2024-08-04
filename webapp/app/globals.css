@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+
+  --light-text: #111827;
+  --light-bg: #f9fafb;
+
+  --dark-text: #f9fafb;
+  --dark-bg: #111827;
+
+  --light-green: #65CD7F;
+  --dark-green: #37a954;
+}
+
+html {
+  font-family: var(--font-inter), 'Inter', sans-serif;
+}
+
+@layer components {
+  .dashboard-widget {
+    @apply border border-gray-200 bg-[#fafafa] dark:bg-[#161616] dark:border-gray-800 rounded-md shadow-md w-full h-full p-5
+  }
+
+  .input {
+    @apply border border-gray-200 dark:border-gray-900 dark:bg-[#242424] h-12 p-2 rounded-md mb-2
+  }
+}
+
+/* landing */
+* {
+  box-sizing: border-box;
+}
+
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  /* overflow: hidden; */
+  /* padding: 60px 0; */
+  /* background: white; */
+  /* position: relative; */
+  /* display: flex; */
+}
+
+.logos-slide {
+  /* flex-wrap: nowrap; */
+  animation: 20s slide infinite linear;
+}
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+/* .logos-slide img { */
+/*   height: 60px; */
+/*   margin: 0 40px; */
+/* } */
+
+
+
+
+
+/* .slider { */
+/* 	background: white; */
+/* 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125); */
+/* 	margin: auto; */
+/* 	overflow:hidden; */
+/* 	position: relative; */
+/* 	 */
+/* 	&::before, */
+/* 	&::after { */
+/* 		@include white-gradient; */
+/* 		content: ""; */
+/* 		height: 100%; */
+/* 		position: absolute; */
+/* 		width: 100px; */
+/* 		z-index: 2; */
+/* 	} */
+/* 	 */
+/* 	&::after { */
+/* 		right: 0; */
+/* 		top: 0; */
+/* 		transform: rotateZ(180deg); */
+/* 	} */
+/**/
+/* 	&::before { */
+/* 		left: 0; */
+/* 		top: 0; */
+/* 	} */
+/* 	 */
+/* 	.slide-track { */
+/* 		animation: scroll 20s linear infinite; */
+/* 		display: flex; */
+/* 	} */
+/* } */
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* charts */
+.MuiChartsTooltip-root {
+  @apply bg-white dark:bg-[#2b2a2a] ;
+}
+.MuiChartsTooltip-labelCell {
+  @apply text-black dark:text-white font-semibold;
+}
+.MuiChartsTooltip-valueCell {
+  @apply text-black dark:text-white;
+}
+.MuiChartsTooltip-mark {
+  @apply w-[20px] h-[20px] border-none;
+}
+.MuiTypography-root {
+  @apply text-black dark:text-white
+}
+.MuiChartsLegend-series text{
+  @apply text-black dark:text-white !fill-black dark:!fill-white
+}
+
+/* gauge */
+.MuiGauge-referenceArc {
+ @apply dark:fill-gray-800
+}
+.MuiGauge-valueText text {
+  @apply fill-black dark:fill-white
+}
+
+/* barchart */
+.director-steps .MuiChartsAxis-line {
+  @apply stroke-black dark:stroke-white;
+}
+.director-steps .MuiChartsAxis-tickLabel {
+  @apply fill-black dark:fill-white
+}
+.director-steps .MuiChartsAxis-label {
+  @apply fill-black dark:fill-white
+}
+.director-companies .MuiChartsLegend-mark{
+  @apply rounded-full;
+  border-radius: 50%; /* Add this line to make it a circle */
+}
+
+
+/* calendar */
+.MuiSvgIcon-root {
+  @apply fill-gray-500 dark:fill-gray-400
+}
+
+.MuiButtonBase-root {
+  @apply text-black dark:text-white
+}

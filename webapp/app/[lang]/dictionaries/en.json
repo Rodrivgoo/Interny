@@ -1,0 +1,373 @@
+{
+    "landing": {
+        "login": "Login",
+        "register": "Register for free",
+        "hero": {
+            "title": "Manage your internships with Interny",
+            "subtitle": "Fulfill your professional goals as a student. Your internships, grades and offers, all in one place. "
+        },
+        "teacher": {
+            "title": "For the teachers",
+            "subtitle": "Keep track of your students and their internships. Evaluate their progress and maintain constant communication with them."
+        },
+        "director": {
+            "title": "For the directors",
+            "subtitle": "Visualize the progress of the students of the career and the companies in which they are."
+        },
+        "universities": "Universidades que confían en Interny",
+        "companies": {
+            "title": "For the companies",
+            "subtitle": "Evaluate your interns and find the best candidates for new positions."
+        },
+        "organizations": {
+            "title": "Organizations that trust Interny"
+        },
+        "footer": {
+            "about": "About us",
+            "design": "Design inspired by"
+        }
+    },
+    "navbar": {
+        "dashboard": "Dashboard",
+        "internships": "Internships",
+        "grades": "Grades",
+        "calendar": "Calendar"
+    },
+    "login": {
+        "title": "Login",
+        "email": "Email",
+        "password": "Password",
+        "loginButton": "Login",
+        "registerLink": "Register",
+        "registerInfo": "Don't have an account?",
+        "error": "Invalid username or password",
+        "loginWith": "Continue with",
+        "logOut": "Log out",
+        "loginError": "Invalid username or password",
+        "changeLanguage": "Change language"
+    },
+    "register": {
+        "title": "Register",
+        "username": "Username",
+        "firstName": "Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "registerButton": "Register",
+        "loginLink": "Login",
+        "loginInfo": "Already have an account?",
+        "registerError": "Error registering user",
+        "registerErrorUsername": "Username already exists",
+        "registerErrorEmail": "Username with that email already exists",
+        "registerErrorPassword": "Password not secure",
+        "termsTitle": "Terms and Conditions",
+        "termsLink":"Accept the Terms & Conditions",
+        "termsAndConditionsText":"The terms and conditions of Interny are aligned with those impose by...",
+        "university": "University",
+        "career": "Career"
+    },
+    "dashboard": {
+        "student": {
+            "widgets": {
+                "internship": {
+                    "title" : "Operative Internship",
+                    "tbt": "To be determined"
+                },
+                "internship2": {
+                    "title" : "Professional Internship",
+                    "tbt": "To be determined"
+                },
+                "calendar": {
+                    "title": "Calendar",
+                    "noEvents": "No events"
+                },
+                "news": {
+                    "title": "News",
+                    "noNews": "No news",
+                    "minToRead": "min read",
+                    "mock": {
+                        "title": "Interny 1.2 is here!",
+                        "description": "In this new version, we added internship offers and the ability to apply for them. We also improved the design and added new features. Check it out!"
+                    }
+                }
+            }
+        },
+        "teacher": {
+            "widgets":{
+                "studentsList": {
+                    "title": "Students List",
+                    "noStudents": "No students enrolled",
+                    "step": "Step"
+                },
+                "studentDetails": {
+                    "title": "Details of the student",
+                    "noSelectedStudent": "Select a student",
+                    "student": "Student",
+                    "company": "Company",
+                    "supervisors": "Supervisors",
+                    "evaluate": "Evaluate"
+                }
+            }
+        },
+        "director": {
+            "widgets": {
+                 "stepsChart": {
+                    "title": "Student's progress",
+                    "noStudents": "There are no students",
+                    "step": "Step",
+                    "students": "Students",
+                    "studentsInStep": "Students in step"
+                },
+                "companiesChart": {
+                    "title": "Companies",
+                    "noCompanies": "There are no companies",
+                    "company": "Company",
+                    "students": "students"
+                },
+                "mailing": {
+                    "title": "Mailing",
+                    "lastEmails": "Last emails sent",
+                    "sendTo": "Send to",
+                    "career": "Career",
+                    "all": "All",
+                    "step": "Step",
+                    "equal": "Equal",
+                    "greater": "Greater",
+                    "less": "Less",
+                    "to": "To",
+                    "subject": "Subject",
+                    "content": "Content",
+                    "send": "Send",
+                    "success": "Email sent successfully",
+                    "error": "Error sending email"
+                
+                }
+            }
+        },
+        "company": {
+            "widgets": {
+                "companyInfo": {
+                    "title": "Información de la compañía",
+                    "name": "Nombre",
+                    "address": "Dirección",
+                    "phone": "Teléfono",
+                    "email": "Correo",
+                    "website": "Sitio web",
+                    "edit": "Editar",
+                    "update": "Actualizar",
+                    "updateSuccess": "Actualizado correctamente",
+                    "updateError": "Error al actualizar"
+                },
+                "internships": {
+                    "title": "Internship Positions",
+                    "noInternships": "No hay prácticas publicadas",
+                    "noInternships": "There are no internships published",
+                    "addInternship": "Add internship",
+                    "edit": "Edit",
+                    "candidates": "See Candidates"
+                }
+            }
+        }
+    },
+    "internships": {
+        "widgets": {
+            "userInternships": {
+                "title": "My internships",
+                "noInternships": "You dont't have any internships",
+                "addInternship": "Add internship"
+            },
+            "newInternship": {
+                "title": "Request internship",
+                "teacher": "Teacher",
+                "type": "Type",
+                "other": "Other",
+                "area": "Area",
+                "company": "Company",
+                "startDate": "Start date",
+                "endDate": "End date",
+                "description": "Description",
+                "submit": "Submit",
+                "success": "Request sent successfully",
+                "error": "Error sending request"
+            },
+            "offers": {
+                "title": "Internship offers"
+            }
+        }
+    },
+    "internship": {
+        "widgets": {
+            "internshipDetails": {
+                "title": "Company",
+                "change": "Change",
+                "teacher": "Teacher",
+                "startDate": "Start date",
+                "endDate": "End date",
+                "grade": "Grade",
+                "done": "Completed",
+                "progress": "In progress",
+                "linkSupervisor": "Link Supervisor"
+            },
+            "step": {
+                "title": "Step",
+                "noStep": "Select a step",
+                "weight": "Weight in internship grade",
+                "instructionsFile": "Instructions",
+                "completed": "Completed",
+                "pending": "Pending",
+                "status": "Status",
+                "file": "File",
+                "noFile": "No file",
+                "addfile": "Add file",
+                "evaluation": "Evaluation",
+                "grade": "Grade",
+                "commentary": "Commentary",
+                "commentaryPlaceholder": "Add a commentary...",
+                "newGrade": "New grade",
+                "updateSuccess": "Step updated successfully",
+                "updateError": "Error updating step",
+                "save": "Save"
+            },
+            "steps": {
+                "title": "Steps",
+                "completed": "Completed",
+                "pending": "Pending"
+            }
+        },
+        "teacher": {
+            "student": "Student"
+        },
+        "supervisor": {
+            "title": "Register Supervisor",
+            "firstName": "Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "register": "Register",
+            "success": "Supervisor saved successfully",
+            "error": "Error saving supervisor"
+        }
+    },
+    "grades": {
+        "title": "Calculate your grade",
+        "calculator": {
+            "title": "Grade calculator",
+            "grade": "Grade",
+            "weight": "%",
+            "add": "Add",
+            "calculate": "Calculate",
+            "result": "Result",
+            "error": "Error calculating grade",
+            "gradeName": "Evaluation",
+            "childName": "Item",
+            "exampleGrade": "Ej: Exams",
+            "exampleChild": "Ej: Exam 1"
+        }
+    },
+    "select": {
+        "title": "Select a career",
+        "searchbar": {
+            "label": "Search career"
+        }
+    },
+    "supervisor": {
+        "mail":"Mail",
+        "newpassword":"New Password",
+        "oldpassword": "Old password",
+        "confirmpassword": "Confirm new password",
+        "title":"Change your password",
+        "grade": "Grade",
+        "comments": "Comments",
+        "evaluationTitle": "Final Evaluation",
+        "evaluationCaption": "This grade must be sent once the student has completed his internship, not before.",
+        "send": "Send",
+        "change": "Change",
+        "current_step": "Step ",
+        "gradedSuccessfully": "Graded Succesfully!",
+        "gradeError": "Error in grading",
+        "passChanged": "Password changed successfully",
+        "passError": "Failed to change password",
+        "monthlyTitle": "Monthly Evaluation",
+        "dashboard": {
+            "title": "",
+            "here": "Here",
+            "changePassword": "Change password"
+        }
+    },
+    "monthlyEval": {
+        "title": "Monthly Evaluation",
+        "grade": "Grade",
+        "calification": "Calification",
+        "calificationDescription": "Indicate the grade with which you evaluate the following skills and competences of the student on a scale of 1 to 7.",
+        "comments": "Comments",
+        "send":"Send",
+        "finalGrade": "Final Grade",
+        "evaluations": {
+            "eval1": {
+                "title": "Commitment and planning (assumes and complies with his work, agreements and deadlines. Organizes tasks simultaneously, plans and prioritizes activities)"
+            },
+            "eval2": {
+                "title": "Adaptability (works effectively in different situations and with different people or groups. Adapts to internal and external changes)"
+            },
+            "eval3": {
+                "title": "Communication (transmits ideas and opinions clearly and timely using both verbal and non-verbal resources)"
+            },
+            "eval4": {
+                "title": "Teamwork (demonstrates interest, predisposition and ability to work with others to achieve common goals. Collaborates with his team)"
+            },
+            "eval5": {
+                "title": "Leadership (exerts influence over a group of people guiding them towards working together and negotiates effectively with peers and other areas to achieve common objectives)"
+            },
+            "eval6": {
+                "title": "Overcoming capacity (maintains his work capacity and emotional control in situations of disapproval or crisis. Receives feedback positively)"
+            },
+            "eval7": {
+                "title": "Engineering skills (identifies opportunities, considers constraints, designs solutions and analyzes and interprets results, justifying his decisions)"
+            },
+            "eval8": {
+                "title": "Proactivity and commitment to permanent learning (uses appropriate resources available for the resolution of engineering problems and informs and expands his knowledge on topics related to his project)"
+            },
+            "eval9": {
+                "title": "Innovation and creativity (proposes and implements new ideas that add value to his work. Seeks continuous improvement)"
+            },
+            "eval10": {
+                "title": "Ethics and compliance with standards (evaluates ethical dimensions in the solution of an engineering problem and adapts to standards and procedures defined by the industry and the organization)"
+            }
+        }
+    },
+    "jobs": {
+        "apply": "Apply",
+        "message": "Your message to the Employer",
+        "submit": "Send",
+        "success": "Application sent successfully",
+        "error": "Error sending application",
+        "newJob": "New Internship Position",
+        "form": {
+            "title": "Title of the offer",
+            "titlePlaceholder": "Ej: Engineering Intern",
+            "city": "City",
+            "region": "Region",
+            "arrangement": "Arrangement",
+            "arrangementPlaceholder": "Hybrid, Remote, On-site",
+            "employment": "Employment",
+            "employmentPlaceholder": "Part-time, Full-time",
+            "about": "About the position",
+            "aboutPlaceholder": "What are you looking for in a candidate?, What will the intern do? etc.",
+            "university": "University",
+            "career": "Career",
+            "selectedCareers": "Students from this careers will be able to apply",
+            "update": "Update",
+            "updateSuccess": "Updated successfully",
+            "updateError": "Error updating offer",
+            "newSuccess": "Position published successfully",
+            "newError": "Error publishing position, check if the position has at least one career selected"
+        },
+        "candidates": {
+            "title": "Candidates",
+            "noCandidates": "There are no candidates",
+            "student": "Student",
+            "email": "Email",
+            "message": "Message"
+        }
+    }
+}

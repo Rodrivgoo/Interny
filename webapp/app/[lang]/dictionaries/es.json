@@ -1,0 +1,373 @@
+{
+    "landing": {
+        "login": "Iniciar Sesión",
+        "register": "Registrarse Gratis",
+        "hero": {
+            "title": "Gestiona tus prácticas con Interny",
+            "subtitle": "Cumple tus metas profesionales como estudiante. Tus prácticas, notas y ofertas, todo en un mismo lugar. "
+        },
+        "teacher": {
+            "title": "Para Docentes",
+            "subtitle": "Mantén un seguimiento de tus estudiantes y sus prácticas. Evalúa sus avances y mantén una comunicación constante con ellos."
+        },
+        "director": {
+            "title": "Para Directores",
+            "subtitle": "Visualiza el progreso de los estudiantes de la carrera y las empresas en las que se encuentran."
+        },
+        "universities": "Universidades que confían en Interny",
+        "companies": {
+            "title": "Para Empresas",
+            "subtitle": "Evalúa a tus practicantes y encuentra a los mejores candidatos para los nuevos puestos."
+        },
+        "organizations": {
+            "title": "Organizaciones que confían en Interny"
+        },
+        "footer": {
+            "about": "Sobre nosotros",
+            "design": "Diseño inspirado por"
+        }
+    },
+    "navbar": {
+        "dashboard": "Dashboard",
+        "internships": "Prácticas",
+        "grades": "Notas",
+        "calendar": "Calendario"
+    },
+    "login": {
+        "title": "Iniciar Sesión",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "loginButton": "Iniciar Sesión",
+        "registerLink": "Registrarse",
+        "registerInfo": "¿No tienes una cuenta?",
+        "error": "Correo electrónico o contraseña incorrectos",
+        "loginWith": "Continuar con",
+        "logOut": "Cerrar Sesión",
+        "loginError": "Correo electrónico o contraseña incorrectos",
+        "changeLanguage": "Cambiar Idioma"
+    },
+    "register": {
+        "title": "Registrarse",
+        "username": "Nombre de Usuario",
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "confirmPassword": "Confirmar Contraseña",
+        "registerButton": "Registrarse",
+        "loginLink": "Iniciar Sesión",
+        "loginInfo": "¿Ya tienes una cuenta?",
+        "registerError": "Error creando usuario",
+        "registerErrorUsername": "Nombre de usuario ya existe",
+        "registerErrorEmail": "Usuario con ese correo electrónico ya existe",
+        "registerErrorPassword": "Contraseña poco segura",
+        "termsTitle": "Términos y Condiciones",
+        "termsLink":"Aceptar los Términos y Condiciones",
+        "termsAndConditionsText":"Los términos y condiciones de Interny se acogen al reglamento impuesto por...",
+        "university": "Universidad",
+        "career": "Carrera"
+    },
+    "dashboard": {
+        "student": {
+            "widgets": {
+                "internship": {
+                    "title" : "Práctica Operaria",
+                    "tbt": "Por definir"
+                },
+                "internship2": {
+                    "title" : "Práctica Profesional",
+                    "tbt": "Por definir"
+                },
+                "calendar": {
+                    "title": "Calendario",
+                    "noEvents": "No hay eventos próximos"
+                },
+                "news": {
+                    "title": "Noticias",
+                    "noNews": "No hay noticias",
+                    "minToRead": "min de lectura",
+                    "mock": {
+                        "title": "Interny 1.2 is here!",
+                        "title": "Llegó Interny 1.2!",
+                        "description": "En esta nueva versión, agregamos ofertas de prácticas y la posibilidad de postular a ellas. También mejoramos el diseño y agregamos nuevas funcionalidades. ¡Échale un vistazo!"
+                    }
+                }
+            }
+        },
+        "teacher": {
+            "widgets":{
+                "studentsList": {
+                    "title": "Lista de estudiantes",
+                    "noStudents": "No hay estudiantes en la lista",
+                    "step": "Paso"
+                },
+                "studentDetails": {
+                    "title": "Detalles del estudiante",
+                    "noSelectedStudent": "Selecciona un estudiante",
+                    "student": "Estudiante",
+                    "company": "Compañía",
+                    "supervisors": "Supervisores",
+                    "evaluate": "Evaluar"
+                }
+            }
+        },
+        "director": {
+            "widgets": {
+                 "stepsChart": {
+                    "title": "Progreso de los estudiantes",
+                    "noStudents": "No hay estudiantes en la lista",
+                    "step": "Paso",
+                    "students": "Estudiantes",
+                    "studentsInStep": "Estudiantes en el paso"
+                },
+                "companiesChart": {
+                    "title": "Empresas",
+                    "noCompanies": "No hay empresas en la lista",
+                    "company": "Empresa",
+                    "students": "Estudiantes"
+                },
+                "mailing": {
+                    "title": "Enviar correo",
+                    "lastEmails": "Últimos correos enviados",
+                    "sendTo": "Enviar a",
+                    "career": "Carrera",
+                    "all": "Todos",
+                    "step": "Paso",
+                    "equal": "Igual",
+                    "greater": "Mayor",
+                    "less": "Menor",
+                    "to": "a",
+                    "subject": "Asunto",
+                    "content": "Contenido",
+                    "send": "Enviar",
+                    "success": "Correo enviado con éxito",
+                    "error": "Error al enviar el correo"
+                
+                }
+            }
+        },
+        "company": {
+            "widgets": {
+                "companyInfo": {
+                    "title": "Información de la compañía",
+                    "name": "Nombre",
+                    "address": "Dirección",
+                    "phone": "Teléfono",
+                    "email": "Correo",
+                    "website": "Sitio web",
+                    "edit": "Editar",
+                    "update": "Actualizar",
+                    "updateSuccess": "Actualizado correctamente",
+                    "updateError": "Error al actualizar"
+                },
+                "internships": {
+                    "title": "Ofertas de Prácticas",
+                    "noInternships": "No hay prácticas publicadas",
+                    "addInternship": "Agregar práctica",
+                    "edit": "Editar",
+                    "candidates": "Ver Candidatos"
+                }
+            }
+        }
+    },
+    "internships": {
+        "widgets": {
+            "userInternships": {
+                "title": "Mis prácticas",
+                "noInternships": "No tienes prácticas",
+                "addInternship": "Agregar práctica"
+            },
+            "newInternship": {
+                "title": "Solicitar nueva práctica",
+                "teacher": "Profesor",
+                "type": "Tipo",
+                "other": "Otro",
+                "area": "Área",
+                "company": "Compañía",
+                "startDate": "Fecha de inicio",
+                "endDate": "Fecha de término",
+                "description": "Descripción",
+                "submit": "Enviar Solicitud",
+                "success": "Solicitud enviada con éxito",
+                "error": "Error al enviar la solicitud"
+            },
+            "offers": {
+                "title": "Ofertas de prácticas"
+            }
+        }
+    },
+    "internship": {
+        "widgets": {
+            "internshipDetails": {
+                "title": "Compañía",
+                "change": "Cambiar",
+                "teacher": "Profesor",
+                "startDate": "Fecha de inicio",
+                "endDate": "Fecha de término",
+                "grade": "Nota",
+                "done": "Finalizada",
+                "progress": "En progreso",
+                "linkSupervisor": "Enlazar Supervisor"
+            },
+            "step": {
+                "title": "Paso",
+                "noStep": "Selecciona un paso",
+                "weight": "Ponderación en la práctica",
+                "instructionsFile": "Instrucciones",
+                "completed": "Completado",
+                "pending": "Pendiente",
+                "status": "Estado",
+                "file": "Archivo",
+                "noFile": "No hay archivo",
+                "addfile": "Agregar archivo",
+                "evaluation": "Evaluación",
+                "grade": "Nota",
+                "commentary": "Comentario",
+                "commentaryPlaceholder": "Escribe un comentario...",
+                "newGrade": "Nueva nota",
+                "updateSuccess": "Paso actualizado con éxito",
+                "updateError": "Error al actualizar el paso",
+                "save": "Guardar"
+            },
+            "steps": {
+                "title": "Pasos",
+                "completed": "Completado",
+                "pending": "Pendiente"
+            }
+        },
+        "teacher": {
+            "student": "Estudiante"
+        },
+        "supervisor": {
+            "title": "Registrar Supervisor",
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "email": "Correo",
+            "register": "Registrar",
+            "success": "Supervisor guardado con éxito",
+            "error": "Error al guardar el supervisor"
+        }
+    },
+    "grades": {
+        "title": "Calcula tu nota",
+        "calculator": {
+            "title": "Calculadora de notas",
+            "grade": "Nota",
+            "weight": "%",
+            "add": "Agregar",
+            "calculate": "Calcular",
+            "result": "Nota final",
+            "error": "Error al calcular la nota",
+            "gradeName": "Evaluación",
+            "childName": "Item",
+            "exampleGrade": "Ej: Pruebas",
+            "exampleChild": "Ej: Prueba 1"
+        }
+    },
+    "select": {
+        "title": "Selecciona una carrera",
+        "searchbar": {
+            "label": "Busca tu carrera"
+        }
+    },
+    "supervisor": {
+        "mail":"Email",
+        "newpassword":"Nueva contraseña",
+        "oldpassword": "Contraseña Antigua",
+        "confirmpassword": "Confirma la nueva contraseña",
+        "title":"Cambia tu contraseña",
+        "grade": "Nota",
+        "comments": "Comentarios",
+        "evaluationTitle": "Evaluación Final",
+        "evaluationCaption": "Esta nota debe ser enviada una vez que el estudiantes haya completado su práctica, no antes.",
+        "send":"Enviar",
+        "change": "Cambiar",
+        "current_step": "Paso ",
+        "gradedSuccessfully": "¡Calificado exitosamente!",
+        "gradeError": "Error en calificación",
+        "passChanged": "¡Contraseña cambiada exitosamente!",
+        "passError": "Error en cambio de contraseña",
+        "monthlyTitle": "Evaluación Mensual",
+        "dashboard": {
+            "title": "",
+            "here": "Aquí",
+            "changePassword": "Cambiar Contraseña"
+        }
+    },
+    "monthlyEval": {
+        "title": "Evaluación Mensual",
+        "grade": "Nota",
+        "calification": "Calificación",
+        "calificationDescription": "Indicar la nota con la que evalúa las siguientes habilidades y competencias del alumno en escala del 1 al 7.",
+        "comments": "Comentarios",
+        "send":"Enviar",
+        "finalGrade": "Nota Final",
+        "evaluations": {
+            "eval1": {
+                "title": "Compromiso y planificación (asume y cumple con su trabajo, acuerdos y plazos. Organiza tareas simultáneamente, planifica y prioriza actividades)"
+            },
+            "eval2": {
+                "title": "Adaptabilidad (trabaja eficazmente en diferentes situaciones y con personas o grupos distintos. Se adapta a cambios internos y externos)"
+            },
+            "eval3": {
+                "title": "Comunicación (transmite ideas y opiniones de forma clara y oportuna utilizando adecuadamente tanto los recursos verbales como los no verbales)"
+            },
+            "eval4": {
+                "title": "Trabajo en equipo (demuestra interés, predisposición y capacidad de trabajar con otros para conseguir metas comunes. Colabora con su equipo)"
+            },
+            "eval5": {
+                "title": "Liderazgo (ejerce influencia sobre un grupo de personas guiándolo hacia el trabajo en conjunto y negocia efectivamente con pares y otras áreas para el logro de objetivos comunes)"
+            },
+            "eval6": {
+                "title": "Capacidad de sobreponerse (mantiene su capacidad de trabajo y su control emocional en sitauciones de desaprobación o crisis. Recibe retroalimentación de forma positiva)"
+            },
+            "eval7": {
+                "title": "Habilidades ingenieriles (identifica oportunidades, considera restricciones, diseña soluciones y analiza e interpreta resultados, justificando sus decisiones)"
+            },
+            "eval8": {
+                "title": "Proactividad y compromiso con el aprendizaje permanente (utiliza recursos disponibles adecuados para la resolución de problemas ingenieriles y se informa y amplía sus conocimientos en los temas relacionados con su proyecto)"
+            },
+            "eval9": {
+                "title": "Innovación y creatividad (propone e implementa nuevas ideas que agregan valor a su trabajo. Busca la mejora continua)"
+            },
+            "eval10": {
+                "title": "Ética y cumplimiento de estándares (evalúa dimensiones éticas en la solución de un problema de ingeniería y se adecua a normas y procedimientos definidos por la industria y la organización)"
+            }
+        }
+    },
+    "jobs": {
+        "apply": "Aplicar",
+        "message": "Mensaje para el empleador",
+        "submit": "Enviar",
+        "success": "Aplicación enviada con éxito",
+        "error": "Error al enviar la aplicación",
+        "newJob": "Nuevo Puesto de Práctica",
+        "form": {
+            "title": "Título del puesto",
+            "titlePlaceholder": "Ej: Práctica Ingeniería",
+            "city": "Ciudad",
+            "region": "Región",
+            "arrangement": "Modalidad",
+            "arrangementPlaceholder": "Híbrido, Remoto, Presencial",
+            "employment": "Tipo de empleo",
+            "employmentPlaceholder": "Full-time, Part-time",
+            "about": "Sobre el puesto",
+            "aboutPlaceholder": "¿Qué buscas en un candidato?, ¿Qué hará el practicante?, etc.",
+            "university": "Universidad",
+            "career": "Carrera",
+            "selectedCareers": "Estudiantes de estas carreras podrán postular",
+            "update": "Actualizar",
+            "updateSuccess": "Actualizado correctamente",
+            "updateError": "Error al actualizar",
+            "newSuccess": "Puesto creado con éxito",
+            "newError": "Error al crear el puesto, revisa si el puesto tiene al menos una carrera seleccionada"
+        },
+        "candidates": {
+            "title": "Candidatos",
+            "noCandidates": "No hay candidatos",
+            "student": "Estudiante",
+            "email": "Email",
+            "message": "Mensaje"
+        }
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "step": 1,
+            "company": "Fintual",
+            "image": "https://example.com/john.jpg"
+        },
+        {
+            "id": 1,
+            "name": "John Doe",
+            "step": 1,
+            "company": "Mercado Libre",
+            "image": "https://example.com/john.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Pedro Pizarro",
+            "step": 6,
+            "company": "Amazon",
+            "image": "https://example.com/pedro.jpg"
+        },
+        {
+            "id": 22,
+            "name": "Maria Garcia",
+            "step": 5,
+            "company": "Google",
+            "image": "https://example.com/maria.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Juan Lopez",
+            "step": 6,
+            "company": "Microsoft",
+            "image": "https://example.com/juan.jpg"
+        },
+        {
+            "id": 24,
+            "name": "John Doe",
+            "step": 1,
+            "company": "Apple",
+            "image": "https://example.com/john.jpg"
+        },
+        {
+            "id": 25,
+            "name": "Jane Smith",
+            "step": 7,
+            "company": "Facebook",
+            "image": "https://example.com/jane.jpg"
+        },
+        {
+            "id": 26,
+            "name": "David Johnson",
+            "step": 2,
+            "company": "Apple",
+            "image": "https://example.com/david.jpg"
+        },
+        {
+            "id": 27,
+            "name": "Sarah Williams",
+            "step": 3,
+            "company": "Netflix",
+            "image": "https://example.com/sarah.jpg"
+        },
+        {
+            "id": 28,
+            "name": "Michael Brown",
+            "step": 7,
+            "company": "Uber",
+            "image": "https://example.com/michael.jpg"
+        },
+        {
+            "id": 29,
+            "name": "Jennifer Davis",
+            "step": 2,
+            "company": "Uber",
+            "image": "https://example.com/jennifer.jpg"
+        },
+        {
+            "id": 30,
+            "name": "Christopher Miller",
+            "step": 4,
+            "company": "Uber",
+            "image": "https://example.com/christopher.jpg"
+        },
+        {
+            "id": 31,
+            "name": "Amanda Wilson",
+            "step": 3,
+            "company": "Uber",
+            "image": "https://example.com/amanda.jpg"
+        },
+        {
+            "id": 32,
+            "name": "Matthew Anderson",
+            "step": 6,
+            "company": "Uber",
+            "image": "https://example.com/matthew.jpg"
+        },
+        {
+            "id": 33,
+            "name": "Emily Martinez",
+            "step": 2,
+            "company": "Apple",
+            "image": "https://example.com/emily.jpg"
+        },
+        {
+            "id": 34,
+            "name": "Daniel Taylor",
+            "step": 4,
+            "company": "Google",
+            "image": "https://example.com/daniel.jpg"
+        },
+        {
+            "id": 35,
+            "name": "Olivia Thomas",
+            "step": 3,
+            "company": "Microsoft",
+            "image": "https://example.com/olivia.jpg"
+        },
+        {
+            "id": 36,
+            "name": "James Clark",
+            "step": 5,
+            "company": "Apple",
+            "image": "https://example.com/james.jpg"
+        },
+        {
+            "id": 37,
+            "name": "Sophia Rodriguez",
+            "step": 3,
+            "company": "Google",
+            "image": "https://example.com/sophia.jpg"
+        },
+        {
+            "id": 38,
+            "name": "Liam Lee",
+            "step": 4,
+            "company": "Amazon",
+            "image": "https://example.com/liam.jpg"
+        },
+        {
+            "id": 39,
+            "name": "Emma White",
+            "step": 3,
+            "company": "Amazon",
+            "image": "https://example.com/emma.jpg"
+        },
+        {
+            "id": 40,
+            "name": "Noah Martinez",
+            "step": 1,
+            "company": "Amazon",
+            "image": "https://example.com/noah.jpg"
+        }
+    ]
+}

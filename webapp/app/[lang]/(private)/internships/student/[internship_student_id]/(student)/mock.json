@@ -1,0 +1,65 @@
+{
+		"internship_student_id": "idjuanperez-practicaoperaria",
+		"student_name": "Juan Perez",
+		"internship_id": "internshipidpracticaoperaria",
+		"title": "Práctica Operaria",
+		"company_name": "Amazon",
+		"company_logo": "idawOgYOsG/logo.jpeg",
+		"grade": "4.5",
+		"status": "done",
+		"startDate": "21-04-2023",
+		"endDate": "13-7-2023",
+		"steps": [
+			{
+				"id": "1",
+				"title": "Inscribir práctica",
+				"status": "done",
+				"grade": 0,
+				"weight": 0.1,
+				"fileKey": "test.jpg",
+				"instructions_key": "instructions.pdf",
+				"evaluation": []
+			},
+			{
+				"id": "2",
+				"title": "Avance 1",
+				"status": "done",
+				"grade": 4,
+				"weight": 0.1,
+				"fileKey": "test.jpg",
+				"instructions_key": "",
+				"evaluation": [
+					{
+						"title": "Introducción",
+						"weight": 0.4,
+						"commentary": "comentario del profesor..",
+						"grade": 0
+					},
+					{
+						"title": "Objetivos",
+						"weight": 0.15,
+						"commentary": "comentario del profesor..",
+						"grade": 0
+					},
+					{
+						"title": "Metodología / Medidas de desempeño",
+						"weight": 0.15,
+						"commentary": "comentario del profesor..",
+						"grade": 0
+					},
+					{
+						"title": "Planificación / Presentación",
+						"weight": 0.15,
+						"commentary": "comentario del profesor..",
+						"grade": 0
+					},
+					{
+						"title": "Proyecto Ingenieril",
+						"weight": 0.15,
+						"commentary": "comentario del profesor..",
+						"grade": 0
+					}
+				]
+			}
+		]
+}

@@ -1,0 +1,41 @@
+services:
+  web:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    command: >
+      sh -c "pip install -r requirements.txt &&
+             python interny/manage.py makemigrations authenticate &&
+             python interny/manage.py makemigrations dashboard &&
+             python interny/manage.py makemigrations jobs &&
+             python interny/manage.py migrate &&
+             python interny/manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - ./backend:/interny
+    depends_on:
+      - db
+
+  front:
+    build: ./webapp
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./webapp/.env
+    depends_on:
+      - web
+
+  db:
+    image: postgres:14
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      - "POSTGRES_PASSWORD=${DB_PASSWORD}"
+      - "POSTGRES_HOST_AUTH_METHOD=trust"
+    ports:
+      - "5432:5432"
+    restart: always
+
+
+volumes:
+  postgres_data:
